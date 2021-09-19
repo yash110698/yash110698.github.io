@@ -1,0 +1,74 @@
+body {
+  margin:40px
+  auto;max-width:650px;
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  padding:010px
+}
+nav ul,
+footer ul {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+h1,h2,h3{
+  line-height:1.2
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: #333;
+}
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
+}
+
+ul.posts {
+  margin: 20px auto 40px;
+  font-size: 1.5em;
+}
+
+ul.posts li {
+  list-style: none;
+}
+
+.icon{
+  display: block;
+  float: left;
+  height: 128px;
+  width: 128px;
+  padding: 2%;
+}
+.insta{ 
+  background: url(/images/instagramIcon.png) no-repeat 0px 0px; 
+}
+.linkedin{
+  background: url(/images/linkedInIcon.png) no-repeat 0px 0px; 
+}
+.github{
+  background: url(/images/github.png) no-repeat 0px 0px;
+}
+.email {
+  background: url(/images/email.png) no-repeat 0px 0px;
+}
+
